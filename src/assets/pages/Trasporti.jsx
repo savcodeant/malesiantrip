@@ -2,7 +2,7 @@
 
 const Trasporti = () => {
     return (
-        <div className="App">
+        <div className="trasporti mb-[50px]">
           <div className="container mx-auto p-4">
             <h1 className="text-2xl font-bold mb-4">Piano Voli</h1>
             <div className="overflow-x-auto">

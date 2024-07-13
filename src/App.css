@@ -1,6 +1,6 @@
-#root{
-  background: rgb(33,56,71);
-  background: linear-gradient(180deg, #213847 0%, #345b74 46%, rgba(103,139,162,1) 100%);
+h1,
+p{
+  color: #213847;
 }
 
 .trasport-btn {
