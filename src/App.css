@@ -2,3 +2,7 @@
   background: rgb(33,56,71);
   background: linear-gradient(180deg, #213847 0%, #345b74 46%, rgba(103,139,162,1) 100%);
 }
+
+.trasport-btn {
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.3), inset 0 0 10px rgba(0, 0, 0, 0.5);
+}

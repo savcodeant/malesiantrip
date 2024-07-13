@@ -13,20 +13,23 @@ const Home = () => {
           </div>
             <Team />
             <div className="btn-container">
-              <div className="transport-btn-container flex grow justify-start ml-4">
-                <a href="trasporti">
-                  <div className="trasport-btn border-2 flex items-center border-zinc-200 rounded-full p-1 text-zinc-200 active:text-blue-600 active:border-blue-600">
-                    <p>DETTAGLI TRASPORTI</p>
-                    <img className="w-[15px]" src={arrow} alt="freccia tasto" />
-                  </div>
-                </a>
-              </div>
-              <div className="mission-btn-container">
-                <div className="mission-btn">
-                  <p>Dettagli Missione</p>
+            <div className="transport-btn-container flex grow justify-start ml-4">
+              <a href="trasporti">
+                <div className="trasport-btn w-[200px] flex items-center justify-around border-2 border-gray-300 rounded-full p-1 text-gray-200 bg-gradient-to-r from-gray-700 via-gray-500 to-gray-700 shadow-lg hover:shadow-md active:text-blue-600 active:border-blue-600">
+                  <p className="font-semibold text-sm mx-2">DETTAGLI TRASPORTI</p>
+                  <img className="w-[15px]" src={arrow} alt="freccia tasto" />
                 </div>
-              </div>
+              </a>
             </div>
+            <div className="transport-btn-container flex grow justify-start ml-4">
+              <a href="missioni">
+                <div className="trasport-btn w-[200px] flex items-center justify-around border-2 border-gray-300 rounded-full p-1 text-gray-200 bg-gradient-to-r from-gray-700 via-gray-500 to-gray-700 shadow-lg hover:shadow-md active:text-blue-600 active:border-blue-600">
+                  <p className="font-semibold text-sm mx-2">DETTAGLI MISSIONI</p>
+                  <img className="w-[15px]" src={arrow} alt="freccia tasto" />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </>  
     )
