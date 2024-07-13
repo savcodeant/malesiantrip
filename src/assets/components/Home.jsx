@@ -6,9 +6,8 @@ import arrow from '../img/arrow.svg';
 const Home = () => {
     return(
       <>
-        <Header />
         <div className="home-container text-white flex flex-col ">
-          <div className="home-title-container flex flex-col items-center bg-zinc-200 rounded-lg m-1 bg-opacity-50">
+          <div className="home-title-container flex flex-col items-center bg-zinc-200 rounded-lg m-1 bg-opacity-30">
             <h1>Benvenuti Power Ranger!</h1>
             <p>Siamo pronti a partire per una nuova emozionante missione! La nostra destinazione: la splendida Malesia! Questa webapp è stata creata per essere il nostro quartier generale digitale, pieno di tutte le informazioni, curiosità e risorse che ci serviranno per affrontare ogni sfida e scoprire ogni meraviglia di questa terra straordinaria.</p>
           </div>
